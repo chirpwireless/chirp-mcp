@@ -84,5 +84,6 @@ as yourself.
 - Chirp: [chirpwireless.io](https://chirpwireless.io)
 - Documentation: [docs.chirpwireless.io — MCP Server](https://docs.chirpwireless.io/api/mcp-server)
 - Contact: [chirpwireless.io/contact](https://chirpwireless.io/contact/)
+- Privacy policy: [chirpwireless.io/privacy-policy](https://chirpwireless.io/privacy-policy/) · Terms: [chirpwireless.io/terms-of-service](https://chirpwireless.io/terms-of-service/)
 
 Two devices are free — start at [chirpwireless.io](https://chirpwireless.io).
