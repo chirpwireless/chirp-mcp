@@ -7,13 +7,16 @@
   "websiteUrl": "https://chirpwireless.io",
   "repository": {
     "url": "https://github.com/chirpwireless/chirp-mcp",
-    "source": "github"
+    "source": "github",
+    "id": "1312160396"
   },
   "icons": [
     {
       "src": "https://chirpwireless.io/android-chrome-512x512.png",
       "mimeType": "image/png",
-      "sizes": ["512x512"]
+      "sizes": [
+        "512x512"
+      ]
     }
   ],
   "remotes": [
