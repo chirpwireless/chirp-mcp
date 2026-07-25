@@ -1,5 +1,7 @@
 # Chirp Home Automation MCP Server
 
+[![smithery badge](https://smithery.ai/badge/chirp/chirp-home-automation)](https://smithery.ai/servers/chirp/chirp-home-automation)
+
 Point the AI app you already talk to at your own home. Ask which sensors have gone quiet, what set off
 last night's alert, how cold the garage got — and tell it to do something about it.
 
