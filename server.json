@@ -1,0 +1,35 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.chirpwireless/chirp",
+  "title": "Chirp Home Automation",
+  "description": "Check, add and control the smart home sensors and automations in your own Chirp home.",
+  "version": "1.0.0",
+  "websiteUrl": "https://chirpwireless.io",
+  "repository": {
+    "url": "https://github.com/chirpwireless/chirp-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://chirpwireless.io/android-chrome-512x512.png",
+      "mimeType": "image/png",
+      "sizes": ["512x512"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp-auth.chirpwireless.io/mcp"
+    },
+    {
+      "type": "streamable-http",
+      "url": "https://mcp-auth.chirpwireless.io/o/{organizationId}/mcp",
+      "variables": {
+        "organizationId": {
+          "description": "Pin the connection to one home instead of following the one selected in the Chirp app. Find the ID in the web app; you must be a member of that home.",
+          "isRequired": true
+        }
+      }
+    }
+  ]
+}
